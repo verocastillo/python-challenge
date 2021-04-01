@@ -1,7 +1,7 @@
 # Homework 3: Python
 # Python Challenge #1: Py Bank
 #
-# I created a Python script for analyzing the financial records of a company
+# I created a Python script to analyze the financial records of a company
 # from a csv file. It calculates the total profits/losses and the average
 # change, as well as displaying the months, greatest increase and decrease.
 
@@ -9,7 +9,7 @@
 import os
 import csv
 
-# Create path for csv
+# Create path for csv and output
 bank_csv = os.path.join('/Users/vero1296/Documents/BOOTCAMP_2021/github/python-challenge/PyBank/Resources/budget_data.csv')
 output_path = os.path.join('/Users/vero1296/Documents/BOOTCAMP_2021/github/python-challenge/PyBank/Analysis/results.txt')
 
