@@ -4,14 +4,15 @@
 # I created a Python script to analyze the financial records of a company
 # from a csv file. It calculates the total profits/losses and the average
 # change, as well as displaying the months, greatest increase and decrease.
+# Make sure to run the script from the right directory for the relative path to work.
 
 # Import modules
 import os
 import csv
 
 # Create path for csv and output
-bank_csv = os.path.join('/Users/vero1296/Documents/BOOTCAMP_2021/github/python-challenge/PyBank/Resources/budget_data.csv')
-output_path = os.path.join('/Users/vero1296/Documents/BOOTCAMP_2021/github/python-challenge/PyBank/Analysis/results.txt')
+bank_csv = os.path.join("Resources","budget_data.csv")
+output_path = os.path.join("Analysis","results.txt")
 
 # Define initial variables
 counter = 0

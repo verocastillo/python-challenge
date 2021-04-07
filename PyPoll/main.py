@@ -4,6 +4,7 @@
 # I created a Python script to create an efficient and modern voting system, 
 # as I was tasked with this in order to help a small, rural town modernize its 
 # vote counting process, by using several python functions.
+# Make sure to run the script from the right directory for the relative path to work.
 
 # Import modules
 import os
@@ -11,8 +12,8 @@ import csv
 import numpy
 
 # Create path for csv and output
-election_csv = os.path.join('/Users/vero1296/Documents/BOOTCAMP_2021/github/python-challenge/PyPoll/Resources/election_data.csv')
-output_path = os.path.join('/Users/vero1296/Documents/BOOTCAMP_2021/github/python-challenge/PyPoll/Analysis/results.txt')
+election_csv = os.path.join("Resources","election_data.csv")
+output_path = os.path.join("Analysis","results.txt")
 
 # Function to calculate percentage
 def percents(array,totalv,outarray):
