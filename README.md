@@ -23,3 +23,10 @@ HR program being implemented in a company, which requires certain data format
 for the program to work and store employee information. Skills such as functions, 
 dictionaries, modules (such as datetime), and reading/writing csv files were used.
 The resulting exported data is saved in the Analysis folder.
+
+**BONUS 2: PyParagraph**
+I created a Python script to assess an input paragraph for several factors. The script 
+counts the words and sentences in a paragraph, as  well as the average length of words 
+(in letters) and sentences (in words) inside the paragraph. Three scripts are attached
+with each of the test paragraphs and results, located in the Resources and Analysis 
+files, respectively. I used skills such as reading/writing text files and splitting.
