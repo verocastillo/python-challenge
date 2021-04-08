@@ -18,6 +18,7 @@ conditionals, modules, and functions were used. The script adapts to any number 
 candidates as long as the three same columns are used.
 
 **BONUS 1: PyBoss**
+
 I created a Python script to modify employee information and records, due to a new 
 HR program being implemented in a company, which requires certain data format 
 for the program to work and store employee information. Skills such as functions, 
@@ -25,6 +26,7 @@ dictionaries, modules (such as datetime), and reading/writing csv files were use
 The resulting exported data is saved in the Analysis folder.
 
 **BONUS 2: PyParagraph**
+
 I created a Python script to assess an input paragraph for several factors. The script 
 counts the words and sentences in a paragraph, as  well as the average length of words 
 (in letters) and sentences (in words) inside the paragraph. Three scripts are attached
